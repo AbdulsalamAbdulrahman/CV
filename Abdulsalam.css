@@ -1,0 +1,31 @@
+body {
+	color: white; 
+}	
+
+#cv {
+	box-shadow: 5px 10px 30px;
+	border: 1px solid;
+	width: 90%;
+	max-width: 500px;
+	margin: 30px auto;
+	background: linear-gradient(to right, rgb(43, 176, 77), rgb(50, 117, 199));
+}
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #fff;
+	font-weight: 0;
+}
+
+#name h2 {
+	margin-top: 0px;
+	color: #ffffff;
+}
+
+#contacts li{
+	font-size: 1em;
+	list-style: none;
+	margin-left: -40px;
+}
+
