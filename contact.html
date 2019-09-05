@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="contact">
+	<form name="contact" method="get">
+		<p>
+		<label for="fullname">Name:Must be a series of alpha characters only(minimum 4)</label>
+		<input type="text" 
+		name="fullname"
+		pattern="[a-zA-Z ]{4,}" 
+		placeholder="Name Surname">
+		</p>
+
+		<p>
+		<label for="email">Email</label>
+		<input type="Email" 
+		name="email"
+		id="email" 
+		placeholder="Enter Email"
+		required>
+		</p>
+
+		<p>
+		<fieldset>
+      	<legend><label for="title">Title</label for="title"></legend>
+      	<input type="radio" required name="title" value="Mr"><label for="r1">Mr.</label>
+      	<input type="radio" required name="title" value="Ms"><label for="r2">Ms.</label>
+      	</fieldset>
+      	</p>
+
+	 
+		<label for="msg">Leave a message</label>
+		<textarea id="msg" minlength="20" cols="10" rows="10"></textarea>
+
+		<input type="submit" name="submit" id="submit">
+
+	</form>
+	</div>
+</body>
+</html>
